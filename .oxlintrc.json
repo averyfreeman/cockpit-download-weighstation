@@ -1,0 +1,11 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": [
+    "react",
+    "typescript",
+    "import",
+    "jsx-a11y",
+    "unicorn",
+    "vue"
+  ]
+}
