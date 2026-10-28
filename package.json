@@ -4,15 +4,20 @@
   "private": true,
   "scripts": {
     "build": "node build.js",
-    "watch": "node build.js --watch"
+    "watch": "node build.js --watch",
+    "lint": "oxlint src/"
   },
   "dependencies": {
-    "@patternfly/react-core": "^5.4.0",
-    "@patternfly/react-icons": "^5.4.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "@patternfly/react-core": "6.7.0",
+    "@patternfly/react-icons": "6.7.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
   },
   "devDependencies": {
-    "esbuild": "^0.24.0"
+    "esbuild": "0.28.2",
+    "oxlint": "1.90.0"
+  },
+  "engines": {
+    "node": ">=24"
   }
 }
